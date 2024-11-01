@@ -1,0 +1,29 @@
+# MP02 - Apunts de Gestió de bases de dades
+
+adreça web: [operatiu](https://operatiu.github.io/apunts/).
+
+## Unitats d'aprenentatge
+
+* `UA1` - Introducció a les bases de dades.
+  * `NF1` - Introducció a les bases de dades.
+  * `NF2` - El model Entitat Relació
+  * `NF3` - El model Relacional
+  * `NF4` - Àlgebra Relacional
+
+* `UA2` - Llenguatges SQL: DDL i DML.
+  * `NF1` - Normalització
+  * `NF2` - Llenguatge de manipulació de dades.
+  * `NF3` - Llenguatges de definició de dades.
+  * `NF4` - TCL: Transaction Control Language
+
+* `UA3` - Assegurament de la informació.
+  * `NF1` - Transferència de dades i còpies de seguretat.
+  * `NF2` - Usuaris, permisos i rols.
+
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
