@@ -45,8 +45,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran+bold:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Catamaran bold";--md-code-font:"Roboto Mono"}</style>
       
     
     
@@ -88,7 +88,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Capçalera">
     <a href="../../../.." title="Apunts del curs" class="md-header__button md-logo" aria-label="Apunts del curs" data-md-component="logo">
       
@@ -194,14 +196,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Pestanyes" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -248,7 +244,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -561,15 +563,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#avaluacio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avaluació
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#recursos-daprenentatge" class="md-nav__link">
     <span class="md-ellipsis">
       Recursos d'aprenentatge
@@ -719,7 +712,9 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
@@ -880,7 +875,9 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2_4" >
         
           
           <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
@@ -1023,15 +1020,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#avaluacio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avaluació
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#recursos-daprenentatge" class="md-nav__link">
     <span class="md-ellipsis">
       Recursos d'aprenentatge
@@ -1064,45 +1052,30 @@
                   
 
 
-<h1 id="ua-1-introduccio-a-les-bases-de-dades">UA 1 : Introducció a les bases de dades<a class="headerlink" href="#ua-1-introduccio-a-les-bases-de-dades" title="Permanent link">&para;</a></h1>
-<h2 id="aquesta-unitat-daprenentatge-es-divideix-en-els-seguents-nuclis-formatius">Aquesta Unitat d'Aprenentatge es divideix en els següents Nuclis Formatius:<a class="headerlink" href="#aquesta-unitat-daprenentatge-es-divideix-en-els-seguents-nuclis-formatius" title="Permanent link">&para;</a></h2>
+<h1 id="ua-1-introduccio-a-les-bases-de-dades">UA 1 : Introducció a les bases de dades</h1>
+<h2 id="aquesta-unitat-daprenentatge-es-divideix-en-els-seguents-nuclis-formatius">Aquesta Unitat d'Aprenentatge es divideix en els següents Nuclis Formatius:</h2>
 <ol>
 <li><code>NF1</code> - <a href="../0372-ua1-nf1/">Introducció a les bases de dades</a></li>
 <li><code>NF2</code> - <a href="../0372-ua1-nf2/">El model Entitat/Relació</a></li>
 <li><code>NF3</code> - <a href="../0372-ua1-nf3/">El model Relacional</a></li>
 <li><code>NF4</code> - <a href="../0372-ua1-nf4/">Àlgebra Relacional</a></li>
 </ol>
-<h2 id="avaluacio">Avaluació<a class="headerlink" href="#avaluacio" title="Permanent link">&para;</a></h2>
+<p>En acabar aquesta Unitat d'Aprenentatge (UA) haurem d'haver entès les avantatges i inconvenients de les bases de dades, la diferència entre l'emmagatzematge en un fitxer i en una base de dades. Haurem fet un petit recorregut històric de les bases de dades. Què és un SGBD i els diferents tipus d'usuaris. Diferències entre bases de dades jeràrquiques, en xarxa i relacionals.</p>
+<p>Al nucli formatiu 2 (NF2), haurem vist què és el disseny conceptual i la forma de representar-lo segon el model ER bàsic i estès. Haurem d'entendre els conceptes entitat, relació, atributs, grau i cardinalitat, així com la participació binària, ternària,.., reflexives i participació obligatòria i opcional (conceptes de valors null). També haurem de distingir entre tipus d'entitats fortes i febles.</p>
+<p>Al NF3 treballarem el model relacional i la seva transformació des del model E/R. Entendrem què són els diferents tipus de clau (candidates, alternatives, primàries i foranes). Què es una tupla o registre, una taula i un camp, què significa aquí el grau i la cardinalitat. Veurem les regles d'integritat (d'entitat i referencial).</p>
+<p>Al nucli formatiu 4 i acabant aquesta UF1, veurem què és i com es fa servir l'àlgebra relacional i la seva importància per entendre les consultes a les bbdd. Veurem el concepte de normalització. Què és una relació universal, les dependències funcionals i els seus tipus, així com les formes normals, incloent-hi la de Boyce-Codd.</p>
+<h2 id="recursos-daprenentatge">Recursos d'aprenentatge</h2>
+<p>Dibuixar esquemes E/R: <a href="https://www.diagrams.net">Diagrams</a></p>
+<p><strong>Bases de dades:</strong></p>
 <ul>
 <li>
-<p>Pràctiques (Pt) (40%)</p>
-<pre class="highlight"><code>- Es realitzaran a classe sota les instruccions del professor.
-- Cada pràctica podria tenir una ponderació diferent segons el criteri del professor i estarà indicada dins la programació per a cada RA.
-- En cada pràctica es tindrà en compte:
-- El lliurament en la data assenyalada pel professor/a.
-- La presentació i/o exposició de la pràctica i dels exercicis: clars i comprensibles,segons un format predefinit.
-- La participació i cooperació a classe.</code></pre>
+<p><a href="https://openaccess.uoc.edu/handle/10609/194?locale=en">UOC Open Course</a></p>
 </li>
 <li>
-<p>Prova escrita (Pe) (60%)</p>
-<pre class="highlight"><code>- Es realitzarà al finalitzar cadascuna de les RA.
-- Podran ser de dos tipus:
-- Exàmens o test escrits per avaluar els coneixements teòrics (definicions i configuracions) que han adquirit en cada unitat formativa.
-- Exàmens pràctics que seran similars a les activitats realitzades a classe.</code></pre>
+<p><a href="https://ioc.xtec.cat/materials/FP/Recursos/fp_asx_m02_/web/fp_asx_m02_htmlindex/index.html">Gestió de Bases de dades IOC</a></p>
 </li>
 </ul>
-<p>Per superar el mòdul professional cal superar independentment tots els RA.</p>
-<p>La qualificació del mòdul professional (QMP) s'obté segons la següent fórmula:</p>
-<pre class="highlight"><code>QMP = H% · QRA1 i 2 + H% · QRA4, 5 i 3 + H% · QRA6</code></pre>
-<p>Que aplicant el % d'hores de cada UF sobre el total d'hores del mòdul (132 h), resulta:</p>
-<pre class="highlight"><code>QMP = 21%  QRA1 i 2 + 50% · QRA4, 5 i 3 + 29% · QRA6</code></pre>
-<p><strong>Llegenda</strong></p>
-<p><strong>H%</strong> : Tant per cent d'hores de cada Unitat Formativa respecte el total d'hores del mòdul.</p>
-<p><strong>QUF</strong> : Qualificació obtinguda en cada Unitat Formativa.</p>
-<pre class="highlight"><code class="language-console">La nota final de cada **RA** o conjunt serà una mitjana ponderada de totes les proves escrites, pràctiques i exercicis, sempre que la nota de cadascun d’ells sigui superior a 4 i la qualificació resultant sigui igual o superior a 5.</code></pre>
-<h2 id="recursos-daprenentatge">Recursos d'aprenentatge<a class="headerlink" href="#recursos-daprenentatge" title="Permanent link">&para;</a></h2>
-<p>Dibuixar esquemes E/R: <a href="https://www.diagrams.net">Diagrams</a></p>
-<h2 id="bibliografia">Bibliografia<a class="headerlink" href="#bibliografia" title="Permanent link">&para;</a></h2>
+<h2 id="bibliografia">Bibliografia</h2>
 <p><strong>Fundamentos de diseño de bases de datos</strong> (Abraham Silberschatz, Henry F. Korth, S. Sudarshan)
 <strong>Sistemas de bases de datos</strong> (Thomas M. Connolly, Carolyn E. Begg)</p>
 <p><a href="https://covers.oreillystatic.com/images/9781593271909/lrg.jpg">The manga guide to databases</a></p>
@@ -1214,7 +1187,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "announce.dismiss", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "announce.dismiss", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.83f73b43.min.js"></script>
