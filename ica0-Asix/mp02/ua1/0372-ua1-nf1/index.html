@@ -1,0 +1,2263 @@
+
+<!doctype html>
+<html lang="ca" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Apunts de bases de dades.">
+      
+      
+        <meta name="author" content="Joan M.">
+      
+      
+      
+        <link rel="prev" href="../0372-ua1-index/">
+      
+      
+        <link rel="next" href="../0372-ua1-nf2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Nucli Formatiu 1 - Apunts del curs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran+bold:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Catamaran bold";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ua-1-aea1-introduccio-a-les-bases-de-dades" class="md-skip">
+          Salta el contingut
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Capçalera">
+    <a href="../../../.." title="Apunts del curs" class="md-header__button md-logo" aria-label="Apunts del curs" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Apunts del curs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Nucli Formatiu 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Comparteix" aria-label="Comparteix" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Neteja" aria-label="Neteja" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicialitzant cerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestanyes" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inici
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../../ica0/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  CFGS ASIX ICA0
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegació" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Apunts del curs" class="md-nav__button md-logo" aria-label="Apunts del curs" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    Apunts del curs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CFGS ASIX ICA0
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CFGS ASIX ICA0
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ica0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mòduls ICA0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MP02 Gestió de bases de dades
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MP02 Gestió de bases de dades
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mp02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MP02
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unitat d'aprenentatge 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unitat d'aprenentatge 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0372-ua1-index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UA1 - Introducció a les bases de dades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-dades-i-les-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les dades i les bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-dades-i-la-seva-representacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les dades i la seva representació
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-informacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La informació
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipus-dacces-a-les-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipus d'accés a les dades
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipus d&#39;accés a les dades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-quatre-tipologies-dacces-a-dades-mes-frequents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les quatre tipologies d'accés a dades més freqüents:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organitzacio-per-nivells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organització per nivells
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fitxers-i-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fitxers i Bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquitectura-a-3-nivells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arquitectura a 3 nivells
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#models-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Models de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taula-resumen-de-les-diferents-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taula resumen de les diferents bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipus-dusuari-a-les-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipus d'usuari a les bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lusuari-administrador-de-la-base-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L'usuari Administrador de la Base de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-bases-de-dades-distribuides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les bases de dades distribuïdes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les bases de dades distribuïdes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges-que-es-poden-assolir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avantatges que es poden assolir:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients-que-ens-podem-trobar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inconvenients que ens podem trobar:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teorema-de-cap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Teorema de CAP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolucio-dels-sgbd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evolució dels SGBD
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#els-llenguatges-de-bbdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Els llenguatges de BBDD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Els llenguatges de BBDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ddl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DDL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DML:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dcl-tcl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DCL / TCL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plsql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL/SQL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0372-ua1-nf2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0372-ua1-nf3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0372-ua1-nf4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unitat d'aprenentatge 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unitat d'aprenentatge 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua2/0372-ua2-index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UA2 - Llenguatges SQL. DDL i DML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua2/0372-ua2-nf1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua2/0372-ua2-nf2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua2/0372-ua2-nf3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua2/0372-ua2-nf4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unitat d'aprenentatge 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unitat d'aprenentatge 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua3/0372-ua3-index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UA3 - Assegurament de la informació
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua3/0372-ua3-nf1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ua3/0372-ua3-nf2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nucli Formatiu 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#les-dades-i-les-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les dades i les bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-dades-i-la-seva-representacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les dades i la seva representació
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-informacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La informació
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipus-dacces-a-les-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipus d'accés a les dades
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipus d&#39;accés a les dades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-quatre-tipologies-dacces-a-dades-mes-frequents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les quatre tipologies d'accés a dades més freqüents:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organitzacio-per-nivells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Organització per nivells
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fitxers-i-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fitxers i Bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquitectura-a-3-nivells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arquitectura a 3 nivells
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#models-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Models de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taula-resumen-de-les-diferents-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taula resumen de les diferents bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipus-dusuari-a-les-bases-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tipus d'usuari a les bases de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lusuari-administrador-de-la-base-de-dades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        L'usuari Administrador de la Base de dades
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-bases-de-dades-distribuides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les bases de dades distribuïdes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les bases de dades distribuïdes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantatges-que-es-poden-assolir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Avantatges que es poden assolir:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenients-que-ens-podem-trobar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inconvenients que ens podem trobar:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teorema-de-cap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Teorema de CAP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolucio-dels-sgbd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evolució dels SGBD
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#els-llenguatges-de-bbdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Els llenguatges de BBDD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Els llenguatges de BBDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ddl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DDL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DML:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dcl-tcl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DCL / TCL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plsql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PL/SQL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ua-1-aea1-introduccio-a-les-bases-de-dades">UA 1 - AEA1: Introducció a les bases de dades<a class="headerlink" href="#ua-1-aea1-introduccio-a-les-bases-de-dades" title="Permanent link">&para;</a></h1>
+<p><img alt="" src="../../../../assets/images/server_room_low.jpg" /></p>
+<ul>
+<li>Les dades són les propietats o valors aïllats de qualsevol element.<ul>
+<li>A les propietats de les dades les anomenem, metadades.</li>
+</ul>
+</li>
+<li>La informació, és l'estructuració, relació i ordenació d'aquestes dades.</li>
+<li>Una base de dades, és una col·lecció de dades organitzada amb una estructurada comú i accessible.</li>
+</ul>
+<p>Dos personatges fonamentals en la història de les bbdd relacionals</p>
+<p><strong>Model Entidad/Relació o E/R model</strong></p>
+<p><strong>Peter Chen: Desenvolupador del model conceptual al 1978</strong></p>
+<p><a href="https://www.csc.lsu.edu/~chen/">Chen</a></p>
+<p>Entity Relationship Modelling: The absolute Basics:</p>
+<details class="note">
+<summary>Veure vídeo</summary>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1Ved3u0CpPo?si=7sBV3GLPk09i351K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</details>
+<p><strong>Model Relacional</strong></p>
+<p>Edgar Frank Codd (Ted Codd): Matemàtic que va desenvolupar el model relacional de dades quan treballava a IBM als anys '70</p>
+<details class="note">
+<summary>Veure vídeo</summary>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KG-mqHoXOXY?si=58n1zToA8w2qCQU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</details>
+<h2 id="les-dades-i-les-bases-de-dades">Les dades i les bases de dades<a class="headerlink" href="#les-dades-i-les-bases-de-dades" title="Permanent link">&para;</a></h2>
+<p>La realitat, la seva conceptualització i la seva representació informàtica són tres mons diferenciats:</p>
+<ul>
+<li>El món real. Està constituït pels objectes (materials o no)de la realitat que ens interessen i amb els quals haurem de treballar.</li>
+<li>El món conceptual. Conjunt de coneixements o informacions obtinguts gràcies a l'observació de la part del món real que ens interessa. Un mateix món conceptual pot donar lloc a diferents mons conceptuals, en funció de la manera de percebre la realitat o els interessos de l'observador d'aquesta.</li>
+<li>El món de les representacions. Està format per les representacions informàtiques, o dades, del món conceptual,necessàries per treballar.</li>
+</ul>
+<h2 id="les-dades-i-la-seva-representacio">Les dades i la seva representació<a class="headerlink" href="#les-dades-i-la-seva-representacio" title="Permanent link">&para;</a></h2>
+<p>Fases per a la conversió de les concepcions en dades:</p>
+<ol>
+<li>Fase de disseny lògic. Es treballa amb el model abstracte de dades obtingut al final de l'etapa de disseny conceptual, per traduir-lo al model de dades utilitzat pel sistema gestor de bases de dades (SGBD) amb el qual es vol implementar i mantenir la futura base de dades (BD).</li>
+<li>Un cop realitzat el model conceptual (model E/R) farem la transformació al model relacional (model lògic) aplicant les regles de transformació</li>
+<li>Fase de disseny físic. Es poden fer certes modificacions sobre l'esquema lògic obtingut en la fase de disseny anterior, per tal d'incrementar l'eficiència en algunes operacions que s'hagin de fer amb les dades.</li>
+<li>Quan disposem del model relacional haurem de normalitzar la base de dades y un cop normalitzada (utilització de formes normals FN) es procedirà a la seva implementació amb el llenguatge SQL.</li>
+</ol>
+<h2 id="la-informacio">La informació<a class="headerlink" href="#la-informacio" title="Permanent link">&para;</a></h2>
+<p>És la interpretació que es fa de les dades. Les informacions es caracteritzen, fonamentalment, per tres elements: entitats, atributs i valors.</p>
+<ul>
+<li>Les entitats són els objectes del món real que conceptualitzem. Són identificables, és a dir, distingibles els uns dels altres. I ens interessen algunes (com a mínim una) de les seves propietats (atributs). Exemple: Entitat “Cotxe”</li>
+<li>Els atributs són les propietats que ens interessen de les entitats. Exemple: Atribut 'Color'</li>
+<li>Els valors són els continguts concrets dels atributs, les determinacions concretes que assoleixen. Exemple: Valor: <span style="color:red">'Vermell'</span>.</li>
+</ul>
+<p>A més dels tres elements bàsics que caracteritzen la informació(és a dir, entitats, atributs i valors), cal tenir en compte el factor cronològic.</p>
+<p><strong>Entitat tipus</strong>: es tracta d'un tipus genèric d'entitat o, si es prefereix, d'una abstracció, que fa referència a una classe de coses com, per exemple, els cotxes en general.</p>
+<p><strong>Entitat instància</strong>: es refereix a la conceptualització d'un objecte concret del món real, com ara un cotxe concret, distingible dels altres objectes del mateix tipus, gràcies a alguna propietat(com podria ser el valor de l'atribut Matricula).</p>
+<p>Anomenem <strong>domini</strong> tot el conjunt de valors que un atribut determinat pot prendre vàlidament.</p>
+<p>Un <strong>tipus de dada</strong> defineix un conjunt de valors amb unes característiques comunes que els fan compatibles entre ells, per la qual cosa també defineix una sèrie d'operacions admissibles sobre aquests valors.</p>
+<p>L'expressió <strong>valor nul</strong> indica l'absència de qualsevol valor associat a un determinat atribut d'una entitat instància concreta.</p>
+<p>Un <strong>atribut identificador</strong> és el que permet distingir inequívocament cada entitat instància de la resta, perquè el seu valor és únic i no es repeteix en diferents entitats instància.Tot atribut o conjunt d'atributs que permeten identificar inequívocament entre ells les instàncies d'una entitat s'anomenen claus.</p>
+<p>La representació més freqüent en l'àmbit informàtic de les BD és l'anomenada representació tabular (o, el que és el mateix, en forma de taula).</p>
+<p>Cada taula representa una entitat genèrica, i està estructurada enfiles (agrupacions horitzontals de cel·les) i columnes (agrupacions verticals de cel·les):</p>
+<ul>
+<li>Cada fila representa una entitat instància (registre).</li>
+<li>Cada columna representa un atribut (camp).</li>
+<li>Cada cel·la (és a dir, cada intersecció d'una fila i d'una columna) emmagatzema el valor que tingui l'atribut de l'entitat instància de què es tracti.</li>
+<li>S'entén per fitxer la implementació informàtica d'una taula, amb les dades estructurades en registres i camps.</li>
+<li>La implementació de cada entitat instància s'anomena registre, i equival a una fila de la representació tabular.</li>
+<li>La implementació de cada atribut s'anomena camp, i equival a una columna de la representació tabular.</li>
+<li>Cada intersecció d'un registre i d'un camp emmagatzema el valor que tingui el camp del registre de què es tracti.</li>
+<li>Les interrelacions són informacions que permeten associar les entitats entre elles.</li>
+<li>Una BBDD consisteix en un conjunt de fitxers de dades interrelacionats.</li>
+</ul>
+<h2 id="tipus-dacces-a-les-dades">Tipus d'accés a les dades<a class="headerlink" href="#tipus-dacces-a-les-dades" title="Permanent link">&para;</a></h2>
+<p>En general,hi ha dues maneres bàsiques d'accedir a les dades:</p>
+<p><strong>L'accés seqüencial</strong> a un registre determinat, que implica l'accés previ a tots els registres anteriors.</p>
+<p><strong>L'accés directe</strong> a un registre concret, que implica l'obtenció directa del registre desitjat.</p>
+<p>A més, hi ha una altra classificació habitual de <strong>tipologies accessos</strong>:</p>
+<p><strong>L'accés per valor</strong>, que permet l'obtenció del registre desitjat en funció del valor d'algun (o alguns) dels seus camps,sense considerar la posició que ocupa el registre.</p>
+<p><strong>L'accés per posició</strong>, que obre l'accés a un registre que ocupa una posició determinada, sense considerar el contingut del registre.</p>
+<h3 id="les-quatre-tipologies-dacces-a-dades-mes-frequents">Les quatre tipologies d'accés a dades més freqüents:<a class="headerlink" href="#les-quatre-tipologies-dacces-a-dades-mes-frequents" title="Permanent link">&para;</a></h3>
+<ul>
+<li>SP (accés seqüencial per posició). Després d'haver accedit a un registre que es troba en una posició determinada, s'accedeix al registre que ocupa la posició immediatament posterior.</li>
+<li>DP (accés directe per posició). S'obté directament un registre pel fet d'ocupar una posició determinada.</li>
+<li>SV (accés seqüencial per valor). Després d'haver accedit a un registre que té un valor concret, s'accedeix al registre que ocupa la posició immediatament posterior, segons l'ordenació establerta a partir un camp determinat (o més). L'ordre serà creixent o decreixent, si es tracta d'un camp numèric, o alfabètic ascendent o descendent, si es tracta d'un camp de caràcters.</li>
+<li>DV (accés directe per valor). S'obté directament un registre pel fet de tenir un valor determinat en un dels seus atributs (o més).</li>
+</ul>
+<h2 id="organitzacio-per-nivells">Organització per nivells<a class="headerlink" href="#organitzacio-per-nivells" title="Permanent link">&para;</a></h2>
+<p>L'organització i enregistrament de les dades, i l'accés a aquestes es poden considerar des de dos punts de vista, més o menys propers a la implementació física de l'enregistrament de les dades:</p>
+<p><strong>Nivell lògic</strong>. Permet treballar amb les dades de manera més senzilla, independentment de la implementació física concreta, que no cal conèixer. És la manera de treballar més productiva i, pertant, la més recomanable, sempre que les circumstàncies no ens obliguen a fer optimitzacions a nivells més baixos.</p>
+<p><strong>Nivell físic</strong>. Implica un coneixement a baix nivell de la implementació física de l'organització de les dades i l'accés a aquestes.</p>
+<h2 id="fitxers-i-bases-de-dades">Fitxers i Bases de dades<a class="headerlink" href="#fitxers-i-bases-de-dades" title="Permanent link">&para;</a></h2>
+<p>Els fitxers tradicionals (i els programes necessaris per treballar-hi) s’han trobat amb serioses dificultats per satisfer les creixents necessitats dels usuaris en pràcticament tots els àmbits.</p>
+<p>Per aquesta raó, les BBDD s’han anat implantant com a mecanisme per excel·lència d’emmagatzematge, processament i obtenció d’informació, tot desplaçant progressivament els fitxers de la seva posició preeminent anterior. La taula següent conté una breu descripció de les principals diferències entre els sistemes basats en fitxers tradicionals i les BBDD.</p>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Fitxers</th>
+<th>Bases de dades</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entitats tipus</td>
+<td>Les entitats instància d’un fitxer pertanyen a una sola entitat tipus.</td>
+<td>Les BD contenen entitats instància d’infinitat d’entitats tipus interrelacionades.</td>
+</tr>
+<tr>
+<td>Interrelacions</td>
+<td>El sistema no interrelaciona fitxers.</td>
+<td>El sistema té previstes eines per interrelacionar fitxers.</td>
+</tr>
+<tr>
+<td>Redundàncies</td>
+<td>És necessari crear fitxers a mida de cada aplicació, amb totes les dades necessàries, encara que estiguin repetides en altres fitxers.</td>
+<td>Tècnicament, totes les aplicacions poden treballar amb la mateixa BD, la  qual cosa evita la redundància de dades i els riscos que comporta.</td>
+</tr>
+<tr>
+<td>Inconsistències</td>
+<td>És possible que els valors d’unes mateixes dades en diferents fitxers no coincideixin, si els programadors no les han actualitzat degudament.</td>
+<td>Si les interrelacions estan ben dissenyades, les dades només han d’estar emmagatzemades en la BD un sol cop. Per tant, no hi ha risc d’inconsistències.</td>
+</tr>
+<tr>
+<td>Obtenció de dades</td>
+<td>Si no hi ha una aplicació que obtingui les dades que volem, o bé s’ha de fer un programa a mida, o bé s’ha d’aprofitar la sortida d’un programa amb objectius similars, i fer els càlculs necessaris manualment.</td>
+<td>Permeten obtenir qualsevol conjunt de dades, segons les necessitats, dels del seu propi entorn de treball, sense haver d’escriure, compilar i executar cap nou programa d’aplicació contra la BD.</td>
+</tr>
+<tr>
+<td>Aïllament de dades</td>
+<td>Les dades estan disperses i aïllades en diferents arxius, la qual cosa dificulta el desenvolupament de les aplicacions.</td>
+<td>Totes les dades són en la mateixa BD, interconnectades, la qual cosa en facilita l’obtenció.</td>
+</tr>
+<tr>
+<td>Integritat de dades</td>
+<td>Els programes han d’implementar totes les restriccions sobre les dades, afegint el codi font corresponent. El manteniment és complicat quan la informació es conté en diferents fitxers utilitzats per diferents aplicacions.</td>
+<td>La BD s’encarrega directament d’implementar les restriccions sobre les  dades. Els programes no han d’incorporar codi font addicional per  garantir-les.</td>
+</tr>
+<tr>
+<td>Atomicitat</td>
+<td>Alguns conjunts d’operacions sobre les dades s’han d’executar de manera indivisible (o tots o cap), independentment de les fallades que el sistema pugui presentar (com ara per un tall de subministrament elèctric). Però això és molt difícil de garantir amb un sistema d’informació basat en fitxers.</td>
+<td>Les BD incorporen la tècnica de les transaccions per tal de garantir fàcilment l’execució atòmica d’una pluralitat de processos sobre les dades.</td>
+</tr>
+<tr>
+<td>Accés concurrent</td>
+<td>L’actualització simultània de dades d’un mateix fitxer per part de diferents usuaris o aplicacions en pot provocar fàcilment la inconsistència.</td>
+<td>Amb la tècnica del bloqueig, les BD garanteixen automàticament la  consistència de les dades, malgrat que més d’un usuari o més d’una aplicació les vulguin actualitzar simultàniament.</td>
+</tr>
+<tr>
+<td>Seguretat</td>
+<td>Habitualment, cada fitxer serveix per a un sol usuari o una sola aplicació (sobretot simultàniament), i ofereix una visió única del món real. Però no sempre tots els usuaris que utilitzen un fitxer haurien de tenir accés a totes les dades que conté.</td>
+<td>Una BD pot ser compartida per molts usuaris de diferents tipus (fins i tot, simultàniament), els quals poden tenir diferents visions (vistes) del món real, en funció del seu perfil i dels permisos que s’hagin de concedir en cada cas.</td>
+</tr>
+</tbody>
+</table>
+<p>Una BBDD és la representació informàtica dels conjunts d'entitats instància corresponent a diferents entitats tipus, i de les relacions entre aquestes. Aquest conjunt estructurat de dades ha de poder ser utilitzat de manera compartida i simultània per una pluralitat d'usuaris de diferents tipus.</p>
+<p>S'utilitzen tres nivells d'abstracció (físic, lògic i de vistes) per amagar aquestes estructures complexes i simplificar, d'aquesta manera, la interacció dels usuaris amb el sistema.</p>
+<h2 id="arquitectura-a-3-nivells">Arquitectura a 3 nivells<a class="headerlink" href="#arquitectura-a-3-nivells" title="Permanent link">&para;</a></h2>
+<p>D’acord amb l’estàndard ANSI/X3/SPARC, hi hauria d’haver tres nivells d’esquemes:</p>
+<ul>
+<li>En el nivell extern se situen les diferents visions lògiques que els processos usuaris (programes d’aplicació i usuaris directes) tenen de les parts de la BD que utilitzen. Aquestes visions s’anomenen esquemes externs.</li>
+<li>En el nivell conceptual hi ha una sola descripció lògica bàsica, única i global, que anomenem esquema conceptual, i que serveix de referència per a la resta d’esquemes.</li>
+<li>En el nivell físic hi ha una única descripció física, que anomenem esquema intern.</li>
+</ul>
+<p><img alt="Arquitectura a 3 nivells" src="../../../../assets/images/3nivells.png" style="transform: scale(0.5);" /></p>
+<h2 id="models-de-dades">Models de dades<a class="headerlink" href="#models-de-dades" title="Permanent link">&para;</a></h2>
+<p>Conjunts d’eines lògiques per descriure les dades, les seves interrelacions, el seu significat i les restriccionsa aplicar per tal de garantir-ne la coherència.</p>
+<ul>
+<li><strong>Estructures de dades</strong>. Elements amb els quals es construeixen les BD, com ara taules, arbres, etc.</li>
+<li><strong>Regles d’integritat</strong>. Restriccions que les dades hauran de respectar, com per exemple tipus de dada, dominis, claus, etc.</li>
+<li><strong>Operacions a realitzar amb les dades</strong>. Altes, baixes, modificacions i consultes, com a mínim.</li>
+</ul>
+<p>Els models de dades més utilitzats al llarg del temps han estat elssegüents, exposats per ordre cronològic d'aparició:</p>
+<ul>
+<li><a href="http://elies.rediris.es/elies9/4-2-1.htm">Jeràrquic</a></li>
+<li><a href="http://elies.rediris.es/elies9/4-2-2.htm">En Xarxa</a></li>
+<li><a href="http://elies.rediris.es/elies9/4-2-3.htm">Relacional</a></li>
+<li><a href="https://docs.google.com/file/d/0B0dtHWxBWsYLVzUxYzBmbUxlUjA/edit?resourcekey=0-uzx91x4O80-oGiRRKfW1Ng">Relacional amb objectes / orientat a objectes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Database_transaction">Transaccionals</a>  Recepció i enviament d'informació a gran velocitat</li>
+<li><a href="https://en.wikipedia.org/wiki/Document-oriented_database">Documentals o no-sql</a>: Informació de gran quantitats de text o dades i el seu tractament. També s'anomenen bases de dades no relacionals.</li>
+</ul>
+<blockquote>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> <a href="http://www.aulaclic.es/sqlserver/b_1_1_4.htm"><code>Més informació</code></a></p>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> <a href="https://mariadb.com/kb/en/library/understanding-the-hierarchical-database-model/"><code>Entenen les bases de dades jeràrquiques</code></a></p>
+</blockquote>
+<div class="admonition note">
+<p class="admonition-title">Resum bases de dades jeràrquiques</p>
+<p>La comprensió del model de base de dades jeràrquic és important per a qualsevol professional de la tecnologia. Aquest model és una estructura de dades organitzada en forma d’arbre, on cada node té un sol pare i diversos fills. Això significa que la informació s’organitza en nivells, com un organigrama. Aquest model és útil per a sistemes que requereixen una estructura rígida, com ara les aplicacions de gestió de dades.</p>
+<p>Un exemple d’aquesta estructura jeràrquica és un catàleg de llibres d’una biblioteca. El node pare seria la biblioteca, els fills serien les seccions de la biblioteca, com ara la secció d’infantil i la secció d’adults. A cada secció se li assignen fills, com ara la secció d’infantil que té llibres de ficció i no-ficció. Així, l’arbre es va omplint amb dades específiques.</p>
+<p>El model de base de dades jeràrquic té avantatges i desavantatges. Una avantatge és que és fàcil d’entendre i d’utilitzar. No obstant, també té limitacions, com ara la manca de flexibilitat. A més, a causa de la seva estructura rígida, no és adequat per a totes les aplicacions. En general, el model de base de dades jeràrquic és una opció viable per a sistemes amb estructures de dades clares i ben definides.</p>
+</div>
+<p>Les BD jeràrquiques emmagatzemen la informació en una estructura jeràrquica que podem imaginar amb una forma d'arbre invertit, oncada node pare pot tenir diferents fills.</p>
+<p>El node superior, que no té pare, es coneix com a arrel. I els nodes que no tenen fills s'anomenen fulles.</p>
+<p><img alt="Esquema jeràrquic" src="../../../../assets/images/jerarquiques.png" style="transform: scale(0.5);" /></p>
+<p>Una de les bbdd jeràrquiques amb més transcendència és la que va fer servir IBM (IMS) al projecte Apollo als anys seixanta.</p>
+<p>Va servir per representar, sobretot, relacions de tipus 1:N</p>
+<blockquote>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> <a href="https://mariadb.com/kb/en/library/understanding-the-network-database-model/"><code>Entenen les bases de dades en xarxa</code></a></p>
+</blockquote>
+<div class="admonition note">
+<p class="admonition-title">Resum bases de dades en xarxa</p>
+<p>La comprensió del model de base de dades de xarxa és important per als professionals de les tecnologies de la informació, ja que aquest model és una forma alternativa d'organitzar i accedir a les dades en comparació amb altres models de base de dades. En aquest model, les dades es representen com a nodes i les relacions entre els nodes es defineixen per mitjà de punts i apuntadors. Això permet als usuaris accedir als registres relacionats directament sense haver de recórrer a través d’altres registres, com passa en altres models.</p>
+<p>El model de base de dades de xarxa va ser desenvolupat durant els anys 1960 i 1970, i va ser popular durant una dècada fins que va ser reemplaçat pel model de base de dades relacional. Tot i això, encara es fa servir en algunes aplicacions, especialment en les empreses i les aplicacions científiques. És important entendre que el model de base de dades de xarxa té les seves pròpies avantatges i desavantatges, i que no és adequat per a totes les aplicacions.</p>
+<p>En resum, el model de base de dades de xarxa és un model alternatiu per a l’organització i l'accés de les dades. Les dades es representen com a nodes i les relacions entre els nodes es defineixen per mitjà de punts i apuntadors. Tot i que va ser popular durant una dècada, el model de base de dades relacional va reemplaçar el model de xarxa. No obstant això, encara es fa servir en algunes aplicacions i és important entendre les seves avantatges i desavantatges.</p>
+</div>
+<p>Al començament del anys setanta, en el mercat, van anar sorgint BBDD que mantenien un model en xarxa (denominat CODASYL acrònim de **CO**nference on **DA**ta **SY**stem **L**anguages), semblant al model jeràrquic.</p>
+<p>Estaven formades per registres interrelacionats mitjançant una estructura en forma d'arbre invertit, però més flexible, ja que permetia que els nodes tinguessin més d'un sol pare.</p>
+<p>Servirà per representar relacions 1:N i N:M</p>
+<p><img alt="Esquema en xarxa" src="../../../../assets/images/en_xarxa.png" style="transform: scale(0.5);" /></p>
+<blockquote>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> <a href="https://mariadb.com/kb/en/library/understanding-the-relational-database-model/"><code>Entenen les bases de dades relacionals</code></a></p>
+</blockquote>
+<p>El model de dades relacionals amb objectes és una extensió del model relacional en sentit estricte.</p>
+<p>El model relacional es basa en la lògica de predicats i en la teoria de conjunts. Actualment, és el sistema més àmpliament utilitzat per modelitzar dades.</p>
+<p>En els models de dades anteriors, les dades s'estructuraven gràcies a dos elements: els registres i les interrelacions, però el model relacional només consta d'un element: '<em>les relacions o taules</em>'.</p>
+<p><img alt="Esquema relacional" src="../../../../assets/images/relacionals.png" style="transform: scale(0.5);" /></p>
+<h2 id="taula-resumen-de-les-diferents-bases-de-dades">Taula resumen de les diferents bases de dades<a class="headerlink" href="#taula-resumen-de-les-diferents-bases-de-dades" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Tipus de BBDD</th>
+<th>Descripció</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Estàtica</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades històriques o que no varien amb el temps. Per exemple, els registres de naixements, les estadístiques, els arxius, etc.</td>
+</tr>
+<tr>
+<td><strong>Dinàmica</strong></td>
+<td>Per a l’emmagatzematge i modificació de dades que canvien amb el temps. Per exemple, els productes d’una botiga, les reserves d’un hotel, les dades personals d’uns clients, etc.</td>
+</tr>
+<tr>
+<td><strong>Bibliogràfica</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades sobre materials de lectura, com llibres, revistes, articles, etc. Per exemple, les biblioteques, les editorials, les bases de dades acadèmiques, etc.</td>
+</tr>
+<tr>
+<td><strong>De text complet</strong></td>
+<td>Per a l’emmagatzematge i consulta de textos històrics o documentals que es consideren fonts primàries. Per exemple, els arxius nacionals, els diaris, les enciclopèdies, etc.</td>
+</tr>
+<tr>
+<td><strong>Jeràrquica</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que tenen una relació de pare-fill o de superior-subordinat. Per exemple, les estructures organitzatives d’una empresa, els sistemes de fitxers d’un ordinador, els arbres genealògics, etc.</td>
+</tr>
+<tr>
+<td><strong>Relacional</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que s’organitzen en taules amb files i columnes. Per exemple, les bases de dades SQL, com MySQL, Oracle, PostgreSQL, etc.</td>
+</tr>
+<tr>
+<td><strong>De xarxa</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que s’organitzen en registres que es connecten entre si mitjançant enllaços. Per exemple, les bases de dades de xarxes socials, com Facebook, Twitter, LinkedIn, etc.</td>
+</tr>
+<tr>
+<td><strong>Multidimensional</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que s’organitzen en dimensions o categories que permeten fer anàlisis complexes. Per exemple, les bases de dades de negoci, com OLAP, Data Warehouse, Data Mining, etc.</td>
+</tr>
+<tr>
+<td><strong>Orientada a objectes</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que s’organitzen en objectes que tenen atributs i mètodes. Per exemple, les bases de dades de programació orientada a objectes, com Java, C++, Python, etc.</td>
+</tr>
+<tr>
+<td><strong>Gràfica</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que s’organitzen en nodes i arestes que tenen propietats i relacions. Per exemple, les bases de dades de grafos, com Neo4j, GraphDB, ArangoDB, etc.</td>
+</tr>
+<tr>
+<td><strong>No relacional</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que no s’organitzen en taules i que s’adapten millor a les dades no estructurades o distribuïdes. Per exemple, les bases de dades NoSQL, com MongoDB, Cassandra, Redis, etc.</td>
+</tr>
+<tr>
+<td><strong>Centralitzada</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que es troben en un sol servidor o dispositiu. Per exemple, les bases de dades locals, com SQLite, Access, FileMaker, etc.</td>
+</tr>
+<tr>
+<td><strong>Distribuïda</strong></td>
+<td>Per a l’emmagatzematge i consulta de dades que es troben en diversos servidors o dispositius connectats entre si. Per exemple, les bases de dades en el núvol, com Google Cloud, Amazon Web Services, Microsoft Azure, etc.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tipus-dusuari-a-les-bases-de-dades">Tipus d'usuari a les bases de dades<a class="headerlink" href="#tipus-dusuari-a-les-bases-de-dades" title="Permanent link">&para;</a></h2>
+<p>A la base de dades es connecten múltiples perfils diferents d'usuaris:</p>
+<ul>
+<li>Administrador.</li>
+<li>Operador.</li>
+<li>Desenvolupador.</li>
+<li>Usuaris.</li>
+</ul>
+<h2 id="lusuari-administrador-de-la-base-de-dades">L'usuari Administrador de la Base de dades<a class="headerlink" href="#lusuari-administrador-de-la-base-de-dades" title="Permanent link">&para;</a></h2>
+<p>Algunes de les tasques de l'administrador d'una base de dades són:</p>
+<ul>
+<li>Instal·lació del sistema gestor de base de dades.</li>
+<li>Crear les estructures físiques inicials per a l'emmagatzematge de dades. Fitxers o espai on s'emmagatzemen les dades.</li>
+<li>Crear els objectes (taules, vistes, índexs) que el desenvolupadors han indicat que l'aplicació necessita.</li>
+<li>Crear usuaris i donar-los els permisos que necessiten.</li>
+<li>Controlar i monitoritzar el rendiment de la base de dades.</li>
+<li>Planificar els backups.</li>
+<li>Participar en el documents de seguretat que les lleis en vigor indiquin.</li>
+</ul>
+<h2 id="les-bases-de-dades-distribuides">Les bases de dades distribuïdes<a class="headerlink" href="#les-bases-de-dades-distribuides" title="Permanent link">&para;</a></h2>
+<p>Una base de dades distribuïda és aquella que s'està executant en diferents màquines independents de manera simultània i de forma transparent per als usuaris finals.</p>
+<p>Optar per una base de dades distribuïda té els seus avantatges i inconvenients. Podríem destacar els següents:</p>
+<h3 id="avantatges-que-es-poden-assolir">Avantatges que es poden assolir:<a class="headerlink" href="#avantatges-que-es-poden-assolir" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Alta disponibilitat. Pot ser que un node caigui però la resta de nodes supleixen la seva</li>
+<li>absència.</li>
+<li>Alt rendiment. Els diferents nodes cooperen per tal d'executar les consultes en temps més</li>
+<li>curts.</li>
+<li>Fàcil creixement. Si cal més rendiment afegim nous nodes.</li>
+</ul>
+<h3 id="inconvenients-que-ens-podem-trobar">Inconvenients que ens podem trobar:<a class="headerlink" href="#inconvenients-que-ens-podem-trobar" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Complexitat d'administració: calen més habilitats per tal de manejar una base de dades distribuïda: seguretat, configuracions, etc.</li>
+<li>Complexitat de software: en cas que les transaccions estiguin suportades pel SGBD aquestes</li>
+<li>són molt més complexes de manegar.</li>
+<li>Seguretat: els nodes han d'estar connectats entre ells, cal fer-ho de forma segura per evitar</li>
+<li>intrusos.</li>
+</ul>
+<h3 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h3>
+<p>Quan parlem de base de dades distribuïda apareixen nous conceptes i acrònims que cal saber:</p>
+<ul>
+<li>DDBMS: Distributed Database Management System.</li>
+<li>DTM: Distributed Transaction Manager. Encarregat de gestionar i coordinar transaccions entre les diferents màquines on està distribuït el nostre sistema gestor de base de dades. Cal recordar que les transaccions comencen i finalitzen, que durant la seva vida es fan canvis sobre les dades i que en finalitzar els canvis es confirmen o es desestimen.</li>
+<li>DBM: DataBase Manager.</li>
+<li>Node: Cadascuna de les màquines independents sobre les que s'està executant el DDBMS. De vegades es parla de cluster al conjunt de nodes que conformen el sistema.</li>
+<li>Maquinari: Per ser un sistema distribuït s'ha d'executar sobre màquines que no comparteixen components, és a dir, vàries màquines interconnectades per xarxa però sense compartir CPU ni memòria.</li>
+<li>Programari: cadascuna de les màquines sobre les que s'executa el sistema distribuït disposa del seu propi programari, com a mínim un sistema operatiu i el programari del DDBMS.</li>
+</ul>
+<p><img alt="Esquema BBDD distribuïda" src="../../../../assets/images/distribuida.png" style="transform: scale(0.5);" /></p>
+<h2 id="teorema-de-cap">Teorema de CAP<a class="headerlink" href="#teorema-de-cap" title="Permanent link">&para;</a></h2>
+<p>En informàtica teòrica, el teorema CAP, també conegut com a teorema de Brewer, formula que és impossible garantir simultàniament les tres característiques següents en una aplicació distribuïda:</p>
+<ul>
+<li>Consistència: tots els nodes veuen la mateixa dada al mateix temps.</li>
+<li>Disponibilitat: la garantia que cada petició a un node rep una resposta de si ha tingut èxit o si ha fallat.</li>
+<li>Tolerància a la partició: el sistema continua operant malgrat un error a la xarxa divideix el sistema ( aïlla certs nodes ).</li>
+</ul>
+<p>Això afecta també a les bases de dades distribuïdes.</p>
+<p>Els SGBD són un tipus de programari que té com a finalitats la gestió i el control de les BBDD.</p>
+<h2 id="evolucio-dels-sgbd">Evolució dels SGBD<a class="headerlink" href="#evolucio-dels-sgbd" title="Permanent link">&para;</a></h2>
+<p><strong>Anys cinquanta</strong>: processament seqüencial</p>
+<p><strong>Anys seixanta i setanta</strong>: sistemes centralitzats</p>
+<p><strong>Anys vuitanta</strong>: SGBD relacionals</p>
+<p><strong>Anys noranta</strong>: BD distribuïdes, arquitectures client/servidor, i llenguatges de quarta generació</p>
+<p>Un gestor de dades () consisteix en rèpliques elaborades de les dades generades pel funcionament quotidià de l'organització o l'empresa de què es tracti, durant un cert període de temps, per tal de realitzar anàlisis estratègiques d'índole financera, de mercats, etc.</p>
+<p>La Utilització de dades estructurades mitjançant l'estàndard XML resulta especialment interessant en l'intercanvi d'informació entre sistemes basats en plataformes poc compatibles entre ells.</p>
+<p>Tots els SGBD del mercat volen satisfer, amb més o menys encert, una sèrie d'objectius i funcionalitats que actualment es consideren indispensables per al bon funcionament de qualsevol sistema d'informació:</p>
+<ul>
+<li>Possibilitar les consultes no predefinides de qualsevol complexitat.</li>
+<li>Garantir la independència física i la independència lògica de les dades.</li>
+<li>Evitar o solucionar els problemes derivats de la redundància.</li>
+<li>Protegir la integritat de les dades.</li>
+<li>Permetre la concurrència d'usuaris.</li>
+<li>Contribuir a la seguretat de les dades.</li>
+<li>La redundància consisteix en la repetició indesitjada de les dades, que incrementa els riscos de pèrdua d'integritat d'aquestes quan s'actualitzen.</li>
+</ul>
+<p>Un altre tipus de duplicitat admissible és la constituïda per les anomenades dades derivades. Es tracta de dades emmagatzemades en la BD, que en realitat són el resultat de càlculs realitzats amb altres dades també presents en la mateixa BD.</p>
+<p>Mitjançant les <strong>regles d'integritat</strong>, el sistema valida automàticament certes condicions en produir-se una actualització de dades, i l'autoritza si les compleix, o denega el permís en cas contrari. </p>
+<p>Tipus: <strong>Restriccions del model i restriccions d’usuari.</strong></p>
+<details class="note">
+<summary>Veure vídeo</summary>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yIAJRyE2ENg?si=fJKRj85Ko2A6jJG-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+</details>
+<p>Una <strong>transacció</strong> consisteix en un conjunt d'operacions simples que s'han d'executar com una unitat.</p>
+<p>Les transaccions confiables han de complir les propietats <strong>ACID</strong>.</p>
+<p><strong>Atomicitat</strong>: Tota transacció ha de ser o Tot o Res.</p>
+<p><strong>Consistència</strong>: Una BBDD després d'una transacció, sempre ha de passar d'un estat vàlid a un altre que sigui vàlid, independentment dels processos que se li apliquin.</p>
+<p><strong>Aïllament (Isolation)</strong>: Les transaccions concurrents (que se executen a l'hora o en paral·lel, ex. T1 i T2) ho han de fer de forma independent.</p>
+<p><strong>Durabilitat</strong>: Una vegada realitzada (commit) s'emmagatzema de forma immediata i quedarà desada de forma persistent.</p>
+<p>Un <strong>bloqueig</strong> consisteix a impedir l'accés a determinades dades durant el temps en què estiguin sent utilitzades per una transacció.Així, s'aconsegueix que les transaccions s'executin com si estiguessin aïllades, de tal manera que no es produeixen interferències entre elles.</p>
+<p>Les tècniques de xifratge permeten emmagatzemar la informació utilitzant codis secrets que no permeten accedir a les dades a persones no autoritzades i que, per tant, no disposen dels codis esmentats.</p>
+<h2 id="els-llenguatges-de-bbdd">Els llenguatges de BBDD<a class="headerlink" href="#els-llenguatges-de-bbdd" title="Permanent link">&para;</a></h2>
+<p>Es poden classificar en dues grans tipologies segons la seva finalitat:</p>
+<h3 id="ddl">DDL:<a class="headerlink" href="#ddl" title="Permanent link">&para;</a></h3>
+<p>Llenguatges de definició de dades (data definition languages, en anglès, o DDL). Estan especialitzats en la definició de l'estructura de les BD, mitjançant l'especificació d'esquemes.</p>
+<p>Operacions:</p>
+<ul>
+<li>Create</li>
+<li>Alter</li>
+<li>Drop</li>
+<li>Truncate</li>
+</ul>
+<h3 id="dml">DML:<a class="headerlink" href="#dml" title="Permanent link">&para;</a></h3>
+<p>Llenguatges de manipulació de dades (data management languages, en anglès, o DML). Possibiliten la consulta,modificació i eliminació de les dades emmagatzemades, i també la inserció de noves informacions.</p>
+<p>Operacions:</p>
+<ul>
+<li>Select</li>
+<li>Insert</li>
+<li>Update</li>
+<li>Delete</li>
+</ul>
+<h3 id="dcl-tcl">DCL / TCL:<a class="headerlink" href="#dcl-tcl" title="Permanent link">&para;</a></h3>
+<p>Llenguatges de control de dades (Data Control Language, en anglès, o DCL). Regulen el control d'accés a les dades i de les transaccions.</p>
+<p><strong>Operacions accés i privilegis</strong>:
+* Grant
+* Revoke</p>
+<p><strong>Operacions sobre transaccions</strong>:
+* Commit
+* Rollback</p>
+<h3 id="plsql">PL/SQL:<a class="headerlink" href="#plsql" title="Permanent link">&para;</a></h3>
+<p>Llenguatge de programació de servidor.</p>
+<p><strong>Tipus</strong>:</p>
+<ul>
+<li>Disparadors (triggers)</li>
+<li>Funcions (Functions)</li>
+<li>Procediments (Procedures)</li>
+<li>Cursors</li>
+<li>Declare</li>
+<li>Open</li>
+<li>Fetch</li>
+<li>Close</li>
+<li>Eventos (Events)</li>
+<li>Gestió d'errors (Handlers)</li>
+</ul>
+<p>El llenguatge més utilitzat per interaccionar amb els SGBD relacionals és l'SQL.</p>
+<p>Podem diferenciar tres categories diferents d'usuaris de SGBD, en funció de la manera en què interactuen amb el sistema: externs,sofisticats i programadors d'aplicacions.</p>
+<p>Els administradors són uns usuaris especials que realitzen tasques d'administració i control centralitzat de les dades, i gestionen els permisos d'accés concedits als diferents usuaris i grups d'usuaris, per tal de garantir el funcionament correcte de la BD.</p>
+<p>El 1975, el comitè ANSI/X3/SPARC va proposar una arquitectura perals SGBD estructurada en tres nivells d'abstracció (intern,conceptual i extern), que resulta molt útil per separar els programes d'aplicació de la BD considerada des d'un punt de vista físic.</p>
+<p>Els Components funcionals dels SGBD més importants són el gestor d'emmagatzemament i el processador de consultes.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Torna a l'inici
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Peu de pàgina" >
+        
+          
+          <a href="../0372-ua1-index/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: UA1 - Introducció a les bases de dades">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                UA1 - Introducció a les bases de dades
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../0372-ua1-nf2/" class="md-footer__link md-footer__link--next" aria-label="Següent: Nucli Formatiu 2">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Següent
+              </span>
+              <div class="md-ellipsis">
+                Nucli Formatiu 2
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Joan M.
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "announce.dismiss", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
