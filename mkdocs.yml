@@ -18,7 +18,6 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
-    - navigation.instant
     - navigation.indexes
     - navigation.sections
     - navigation.expand
