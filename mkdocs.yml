@@ -128,11 +128,12 @@ nav:
       - 2n curs: 
         - Sistemes operatius en xarxa: ic10-Smx/0224-SOX/0224.md
         - Seguretat informàtica: ic10-Smx/0226-SI/0226.md
-        
+
         - Serveis de xarxa: 
-          - Introducció al mòdul: ic10-Smx/0227-SX/RA1-DHCP/0227-RA1.md
+          - Introducció al mòdul: ic10-Smx/0227-SX/0227.md
           - Resultats Aprenentatge:
-            - RA1 Servidor DHCP: ic10-Smx/0227-SX/0227.md
+            - RA1 Servidor DHCP: ic10-Smx/0227-SX/RA1-DHCP/0227-RA1.md
+            
 
         - IPO 2: ic10-Smx/1710-IPO2/1710.md
         - Projecte intermodular: ic10-Smx/1713-PRO/1713.md
