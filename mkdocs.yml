@@ -82,7 +82,7 @@ extra:
       link: https://www.youtube.com/
 
 nav:
-  - Inici: index.md
+  - Index: index.md
   - CFGS ASIX ICA0: 
     - Mòduls ICA0: ica0-Asix/ica0.md
     - MP02 Gestió de bases de dades: 
