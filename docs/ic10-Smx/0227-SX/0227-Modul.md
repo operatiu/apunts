@@ -1,4 +1,7 @@
-# **El mòdul 0227 de SMX (IC10) correspon a Serveis de Xarxa**
+---  
+title: 0227 - Serveis de Xarxa  
+---
+# El mòdul 0227 de SMX (IC10) correspon a Serveis de Xarxa
 
 En aquest mòdul veurem diferents serveis al llarg de vuit RA's
 
