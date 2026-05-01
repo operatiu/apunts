@@ -107,7 +107,6 @@ nav:
   - CFGM SMX IC10:
     - Mòduls IC10: 
       - Inici: ic10-Smx/ic10.md
-
       - 1r curs: 
         - 0156: 
         - 0221: 
@@ -119,14 +118,13 @@ nav:
         - 1708: 
         - 1709: 
         - OPT1SMX: 
-          
       - 2n curs: 
         - 0224: 
         - 0226: 
         - 0227: ic10-Smx/0227-SX/0227-Modul.md
         - 1710: 
         - 1713: 
-        - OPT2SMX: 
+        - OPT2SMX:
 
 
 
