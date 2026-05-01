@@ -83,30 +83,39 @@ extra:
 
 nav:
   - Index: index.md
+
   - CFGS ASIX ICA0: 
     - Mòduls ICA0: ica0-Asix/ica0.md
+
     - MP02 Gestió de bases de dades: 
       - MP02: ica0-Asix/mp02/mp02.md
+
       - Unitat d'aprenentatge 1:
         - UA1 - Introducció a les bases de dades: ica0-Asix/mp02/ua1/0372-ua1-index.md
         - Nucli Formatiu 1: ica0-Asix/mp02/ua1/0372-ua1-nf1.md
         - Nucli Formatiu 2: ica0-Asix/mp02/ua1/0372-ua1-nf2.md
         - Nucli Formatiu 3: ica0-Asix/mp02/ua1/0372-ua1-nf3.md
         - Nucli Formatiu 4: ica0-Asix/mp02/ua1/0372-ua1-nf4.md
+
       - Unitat d'aprenentatge 2:
         - UA2 - Llenguatges SQL. DDL i DML: ica0-Asix/mp02/ua2/0372-ua2-index.md
         - Nucli Formatiu 1: ica0-Asix/mp02/ua2/0372-ua2-nf1.md
         - Nucli Formatiu 2: ica0-Asix/mp02/ua2/0372-ua2-nf2.md
         - Nucli Formatiu 3: ica0-Asix/mp02/ua2/0372-ua2-nf3.md
         - Nucli Formatiu 4: ica0-Asix/mp02/ua2/0372-ua2-nf4.md
+
       - Unitat d'aprenentatge 3:
         - UA3 - Assegurament de la informació: ica0-Asix/mp02/ua3/0372-ua3-index.md
         - Nucli Formatiu 1: ica0-Asix/mp02/ua3/0372-ua3-nf1.md
         - Nucli Formatiu 2: ica0-Asix/mp02/ua3/0372-ua3-nf2.md
+
   - CFGM SMX IC10:
-    - Mòduls IC10: ic10-Smx/ic10.md
+    - Mòduls IC10: 
+      - Llistat de mòduls: ic10-Smx/ic10.md
+
       - 1r curs: 
         - 0156: ic10-Smx/0156-ANG/0156-Modul.md
+        
       - 2n curs: 
         - 0227: ic10-Smx/0227-SX/0227-Modul.md
 
