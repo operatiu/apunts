@@ -105,7 +105,7 @@ nav:
         - Nucli Formatiu 2: ica0-Asix/mp02/ua3/0372-ua3-nf2.md
   - CFGM SMX IC10:
     - Mòduls IC10: ic10-Smx/ic10.md
-      1r curs: 
+      - 1r curs: 
         - 0156: 
         - 0221: 
         - 0222: 
@@ -116,7 +116,7 @@ nav:
         - 1708: 
         - 1709: 
         - OPT1SMX: 
-      2n curs: 
+      - 2n curs: 
         - 0224: 
         - 0226: 
         - 0227: ic10-Smx/0227-SX/0227-Modul.md
