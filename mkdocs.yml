@@ -2,7 +2,7 @@ site_name: Apunts del curs
 site_description: Apunts SMX i DAM.
 site_author: Joan M.
 theme:
-  name: material
+  name: mkdocs
   font:
     text: 'Catamaran bold'
 #  custom_dir: docs/overrides
