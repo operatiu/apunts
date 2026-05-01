@@ -107,8 +107,8 @@ nav:
   - CFGM SMX IC10:
     - Mòduls IC10: 
       - Inici: ic10-Smx/ic10.md
-      #- 1r curs: 
-      #  - 0156: 
+      - 1r curs: 
+        - 0156: ic10-Smx/0156-ANG/0156-Modul.md
       #  - 0221: 
       #  - 0222: 
       #  - 0223: 
