@@ -2,7 +2,7 @@ site_name: Apunts del curs
 site_description: Apunts SMX i DAM.
 site_author: Joan M.
 theme:
-  name: mkdocs
+  name: material
   font:
     text: 'Catamaran bold'
 #  custom_dir: docs/overrides
@@ -115,7 +115,7 @@ nav:
 
       - 1r curs: 
         - 0156: ic10-Smx/0156-ANG/0156-Modul.md
-        
+
       - 2n curs: 
         - 0227: ic10-Smx/0227-SX/0227-Modul.md
 
